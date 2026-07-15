@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Generated models and renders
+*.pt
+conditioned_*.png
+/outputs/
+
+# Local datasets
+/film_corpus/
+
+# Local camera sources and platform metadata
+*.MOV
+.DS_Store
+
+# Virtual environments
+.venv
+
+# Editor-local settings
+.vscode/
